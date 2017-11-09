@@ -1,0 +1,131 @@
+header {
+	padding: 30px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topDiv {
+	background-image: url("../images/cheers-dark.jpg");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-color: rgba(67, 63, 64, 0.7);
+	height: 100vh;
+	color: white;
+}
+
+#errorText {
+	color: red;
+}
+
+#inputArea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cityForm {
+	padding: 50px 0px;
+}
+
+#title {
+	font-size: 110px;
+	letter-spacing: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#slogan {
+	font-size: 20px;
+}
+
+.btn {
+	height: 30px;
+	padding-top: 5px;
+}
+
+#userInput {
+	width: 200px;
+	padding-left: 10px;
+	color: black;
+}
+
+#textArea {
+	font-size: 20px;
+	padding: 15px;
+	color: white;
+}
+
+#weatherArea, #beerArea {
+	margin: auto;
+}
+
+#weatherArea {
+	background-color: #1a2738;
+}
+
+.btn {
+	background-color: #337ab7;
+	color: white;
+}
+
+.btn:hover {
+	background-color: lightblue;
+	color: black;
+}
+
+#weatherDivText, #beerDivText{
+	font-size: 30px;
+	color: white;
+	margin: 50px 0px;
+}
+
+.weatherCard {
+	width: 200px;
+	color: black;
+	display: inline-flex;
+	margin: 10px 10px 50px 10px;
+}
+
+.weatherImg {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-title, .beer-title {
+	font-weight: bold;
+}
+
+.beer-title {
+	font-size: 25px;
+	padding-right: 20px;
+	color: #8d9ea0;
+}
+
+.beer-text {
+	font-size: 15px;
+	padding-right: 20px;
+	color: white;
+}
+
+.beerCard {
+	width: 400px;
+	display: inline-flex;
+	margin: 10px 15px 50px 15px;
+}
+
+#beerArea {
+	background-image: url("../images/rustic.jpg");
+	background-size: 100%;
+  	background-repeat: repeat-y;
+}
+
+.beerImg {
+	height: 250px;
+	padding-top: 35px;
+	padding-left: 20px;
+}
+
+#errorText {
+	margin: 0px 15px;
+}
